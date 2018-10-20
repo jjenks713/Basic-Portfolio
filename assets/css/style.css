@@ -8,12 +8,12 @@
     border-bottom: solid #7e7d7d 3px;
     background-color: #ffffff;
     padding-bottom: 15px;   
-    margin-bottom: 25px;
+    margin-bottom: 0;
 }
 .links {
     float: right;
     list-style-type: none;
-    margin-right: 275px;
+    margin-right: 270px;
     padding: 30px;
 
 }
@@ -31,16 +31,18 @@
     position: fixed;
     top: 0;
     float: left;
-    margin-left: 275px;
+    margin-left: 270px;
     margin-top: 0px;
+    margin-bottom: 0;
     padding: 32px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     font-size: 45px;
     background-color:#175e80;
 }
-
+/* About/*/
 .about {
+    clear: both;
     font-family: 'georgia', times, times new roman, serif;
     font-size: 45px;
     color: #175e80;
@@ -54,24 +56,17 @@
     font-size: 35px;
     color: #777777;
     padding: 35px;
+    line-height: 1.6;
 }
 .profile {
     float: left;
     border: solid 3px #175e80;
     border-radius: 50%;
 }
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background-color: #7e7d7d;
-    border-top: solid 10px #175e80;
-    margin-top: 25px;
-    text-align: center;
-}
+
+/* Contact /*/
 .contact {
+    clear: both;
     font-family: 'arial','helvetica neue', helvetica, sans-serif;
     color: #777777;
     font-size: 25px;
@@ -118,20 +113,44 @@ input[type="reset"] {
     cursor: pointer;
 }
 
-.images {
-    height: 250px;
-    width: 250px;
-    position: relative;
-}
+/* Portfolio/*/
+
 .grid-container {
+    background-color: grey;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     padding: 50px;
+    height: 600px;
+    position: relative;
 }
 .grid-container > div {
     margin: 25px;
+}
+.images {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.images1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}.images2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.images3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.images4 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
 }
 .text-box {
     position: absolute;
@@ -139,6 +158,20 @@ input[type="reset"] {
     background-color: #175e80;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* footer/*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #7e7d7d;
+    border-top: solid 10px #175e80;
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 0;
 }
