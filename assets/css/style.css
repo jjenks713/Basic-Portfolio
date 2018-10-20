@@ -8,6 +8,7 @@
     border-bottom: solid #7e7d7d 3px;
     background-color: #ffffff;
     padding-bottom: 15px;   
+    margin-bottom: 25px;
 }
 .links {
     float: right;
@@ -67,6 +68,8 @@
     height: 70px;
     background-color: #7e7d7d;
     border-top: solid 10px #175e80;
+    margin-top: 25px;
+    text-align: center;
 }
 .contact {
     font-family: 'arial','helvetica neue', helvetica, sans-serif;
