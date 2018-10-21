@@ -52,7 +52,7 @@
     width: 70%;
     margin: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 33px;
     color: #777777;
     padding: 35px;
     line-height: 1.6;
@@ -115,6 +115,9 @@ input[type="reset"] {
     margin: 4px 2px;
     cursor: pointer;
 }
+.submit:hover {
+    color: #ffffff;
+}
 
 /* Portfolio/*/
 
@@ -136,7 +139,6 @@ input[type="reset"] {
     text-align: center;
     height: 200px;
     width: 300px;
-
 }
 
 .images {}
