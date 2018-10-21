@@ -124,7 +124,7 @@ input[type="reset"] {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
-    padding: 25px;
+    padding: 10px;
     height: 700px;
 }
 .grid-container > div {
@@ -147,7 +147,6 @@ input[type="reset"] {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 40%;
-    color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
