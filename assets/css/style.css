@@ -1,4 +1,6 @@
-
+body {
+    background-image: url("../images/back.png");
+}
 .banner {
     position: fixed;
     width: 100%;
@@ -13,7 +15,6 @@
     margin-right: 22%;
     padding: 30px;
     padding-top: 45px;
-
 }
 .links li {
     display: inline;
@@ -126,9 +127,7 @@ input[type="reset"] {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
-
     height: 700px;
-
 }
 .grid-container > div {
     padding: 0px 35px 25px 0px;
